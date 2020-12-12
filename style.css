@@ -1,0 +1,124 @@
+body {
+  font-family: "Anton", sans-serif;
+  color: black;
+	font-size: 16px;
+}
+* {
+	box-sizing: border-box;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.header {
+  background: url("/img/header-bg.jpg") no-repeat;
+  padding-bottom: 300px;
+}
+.header a {
+  color: aliceblue;
+}
+.menu {
+  display: flex;
+}
+.menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+.menu li {
+  margin-right: 40px;
+  list-style: none;
+}
+.tel {
+  margin-left: auto;
+}
+.logo {
+  margin-right: 69px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+.offer {
+  margin-top: 200px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.offer p {
+  font-size: 30px;
+  line-height: 44px;
+  letter-spacing: 0.1em;
+}
+.offer h1 {
+  font-size: 100px;
+  line-height: 147px;
+  margin-top: -9px;
+  margin-bottom: 19px;
+  letter-spacing: 0.02em;
+}
+.btn {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #ffffff;
+    width: 238px;
+}
+.btn:hover {
+	background: #fff;
+    color: #000;
+}
+.section{
+    padding-top: 113px;
+}
+h2 {
+    font-size: 50px;
+line-height: 73px;
+text-transform: uppercase;
+margin-bottom: 58px;
+}
+h3 {
+  margin: 0;
+  font-size: 25px;
+line-height: 37px;
+text-transform: uppercase;
+}
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+.desc-left, .desc-right {
+  width: 564px;
+}
+.description p {
+  font-family: sans-serif;
+  font-size: 16px;
+line-height: 26px;
+text-align: justify;
+}
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.gallery img {
+	transition: all 0.5s ease;
+}
+
+.gallery img:hover {
+	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  transform: scale(1.1);
+}
+.footer-text {
+	font-size: 15px;
+	font-family: sans-serif;
+	display: flex;
+	padding: 114px 0
+}
+.footer-text p {
+	margin-right: 67px;
+}
