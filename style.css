@@ -11,7 +11,7 @@ body {
   margin: 0 auto;
 }
 .header {
-  background: url("/img/header-bg.jpg") no-repeat;
+  background: url("img/header-bg.jpg") no-repeat;
   padding-bottom: 300px;
 }
 .header a {
